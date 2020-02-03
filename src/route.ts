@@ -46,7 +46,7 @@ export class Route {
 				instructions: newSection
 			});
 		}
-		console.log('sections', sections);
+		// console.log('sections', sections);
 		return sections;
 	}
 
@@ -78,7 +78,7 @@ export class Route {
 
 			indexFrom = step.index;	// continuation
 		}
-		console.log('latlngs', latlngs);
+		// console.log('latlngs', latlngs);
 		return latlngs;
 	}
 
@@ -94,7 +94,7 @@ export class Route {
 
 	private async fetchCities(sections: Section[]) {
 		for (const section of sections) {
-			const overpass = new Overpass(section.finish, 50000);
+			const overpass = new Overpass(section.finish, 10000);
 			const cities = await overpass.fetch();
 			console.log('around', section.finish, cities.elements.length);
 			this.renderCities(cities.elements);
@@ -104,7 +104,8 @@ export class Route {
 	renderCities(cities: OverpassCity[]) {
 		for (const city of cities) {
 			console.log(city);
-			L.circleMarker(L.LatLng(city.lat, city.lon)).addTo(this.map);
+			const pos = new L.LatLng(city.lat, city.lon);
+			L.circleMarker(pos).addTo(this.map);
 		}
 	}
 

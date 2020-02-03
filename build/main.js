@@ -2,20 +2,39 @@
 
 class Overpass {
     constructor(location, radius) {
-        this.baseUrl = 'http://overpass-api.de/api/interpreter?data=';
+        this.baseUrl = 'http://overpass-api.de/api';
         this.location = location;
         this.radius = radius;
     }
     get script() {
         return `[out:json];
-node(${this.location.lat - 0.5},${this.location.lng - 0.5},${this.location.lat + 0.5},${this.location.lng + 0.5})->.center;
-(node(around.center:${this.radius})["place"="town"];
-node(around.center:${this.radius})["place"="village"];);
+(node(around:${this.radius},${this.location.lat},${this.location.lng})["place"="town"];
+node(around:${this.radius},${this.location.lat},${this.location.lng})["place"="city"];);
 out;`;
     }
+    async awaitSlots() {
+        const url = this.baseUrl + '/status';
+        const json = await fetch(url);
+        const data = await json.text();
+        const isAvailable = data.includes('slots available now');
+        console.log('isAvailable', isAvailable);
+        if (isAvailable) {
+            return true;
+        }
+        const inXseconds = data.match(/in (\d+) seconds/);
+        console.log('inXseconds', inXseconds);
+        await this.pause(inXseconds[1]);
+        return true;
+    }
+    async pause(seconds) {
+        return new Promise((resolve) => {
+            window.setTimeout(resolve, seconds * 1000);
+        });
+    }
     async fetch() {
+        await this.awaitSlots();
         console.log(this.script);
-        const url = this.baseUrl + encodeURIComponent(this.script);
+        const url = this.baseUrl + '/interpreter?data=' + encodeURIComponent(this.script);
         const json = await fetch(url);
         const data = await json.json();
         // console.log(data);
@@ -59,7 +78,7 @@ class Route {
                 instructions: newSection
             });
         }
-        console.log('sections', sections);
+        // console.log('sections', sections);
         return sections;
     }
     expandSections(sections) {
@@ -86,7 +105,7 @@ class Route {
             latlngs = latlngs.concat(range);
             indexFrom = step.index; // continuation
         }
-        console.log('latlngs', latlngs);
+        // console.log('latlngs', latlngs);
         return latlngs;
     }
     renderSections(sections) {
@@ -99,7 +118,7 @@ class Route {
     }
     async fetchCities(sections) {
         for (const section of sections) {
-            const overpass = new Overpass(section.finish, 50000);
+            const overpass = new Overpass(section.finish, 10000);
             const cities = await overpass.fetch();
             console.log('around', section.finish, cities.elements.length);
             this.renderCities(cities.elements);
@@ -108,11 +127,11 @@ class Route {
     renderCities(cities) {
         for (const city of cities) {
             console.log(city);
-            L.circleMarker(L.LatLng(city.lat, city.lon)).addTo(this.map);
+            const pos = new L.LatLng(city.lat, city.lon);
+            L.circleMarker(pos).addTo(this.map);
         }
     }
 }
-//# sourceMappingURL=route.js.map
 
 class Generator {
     constructor() {
