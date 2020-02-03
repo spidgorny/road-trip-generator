@@ -1,0 +1,28 @@
+{
+  "name": "road-trip-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup dist/generator.js --format iife --name \"myBundle\" --file bundle.js -w",
+    "serve": "npx servor --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "react": "npm:@reactesm/react@^0.1.0",
+    "react-dom": "npm:@reactesm/react-dom@^0.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.0",
+    "@rollup/plugin-typescript": "^3.0.0",
+    "@types/leaflet": "^1.5.8",
+    "snowpack": "^1.1.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  }
+}

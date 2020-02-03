@@ -1,0 +1,2363 @@
+[
+	{
+		"name": "Lundbyleden, Högsboleden",
+		"coordinates": [
+			{
+				"lat": 57.73998,
+				"lng": 11.94006
+			},
+			{
+				"lat": 57.74,
+				"lng": 11.94011
+			},
+			{
+				"lat": 57.74001,
+				"lng": 11.9402
+			},
+			{
+				"lat": 57.74002,
+				"lng": 11.94038
+			},
+			{
+				"lat": 57.74004,
+				"lng": 11.9405
+			},
+			{
+				"lat": 57.74004,
+				"lng": 11.9405
+			},
+			{
+				"lat": 57.74102,
+				"lng": 11.94015
+			},
+			{
+				"lat": 57.74128,
+				"lng": 11.94003
+			},
+			{
+				"lat": 57.74145,
+				"lng": 11.93995
+			},
+			{
+				"lat": 57.74145,
+				"lng": 11.93995
+			},
+			{
+				"lat": 57.74143,
+				"lng": 11.94007
+			},
+			{
+				"lat": 57.74144,
+				"lng": 11.94025
+			},
+			{
+				"lat": 57.74144,
+				"lng": 11.94025
+			},
+			{
+				"lat": 57.7414,
+				"lng": 11.94029
+			},
+			{
+				"lat": 57.74137,
+				"lng": 11.94035
+			},
+			{
+				"lat": 57.74137,
+				"lng": 11.94035
+			},
+			{
+				"lat": 57.74129,
+				"lng": 11.94041
+			},
+			{
+				"lat": 57.74115,
+				"lng": 11.94046
+			},
+			{
+				"lat": 57.7409,
+				"lng": 11.94055
+			},
+			{
+				"lat": 57.74011,
+				"lng": 11.94088
+			},
+			{
+				"lat": 57.73959,
+				"lng": 11.94109
+			},
+			{
+				"lat": 57.73908,
+				"lng": 11.94128
+			},
+			{
+				"lat": 57.73844,
+				"lng": 11.9415
+			},
+			{
+				"lat": 57.73836,
+				"lng": 11.94153
+			},
+			{
+				"lat": 57.73801,
+				"lng": 11.94165
+			},
+			{
+				"lat": 57.7379,
+				"lng": 11.94169
+			},
+			{
+				"lat": 57.7375,
+				"lng": 11.94181
+			},
+			{
+				"lat": 57.73702,
+				"lng": 11.94194
+			},
+			{
+				"lat": 57.73658,
+				"lng": 11.94197
+			},
+			{
+				"lat": 57.73617,
+				"lng": 11.94195
+			},
+			{
+				"lat": 57.73567,
+				"lng": 11.94192
+			},
+			{
+				"lat": 57.73524,
+				"lng": 11.94184
+			},
+			{
+				"lat": 57.73479,
+				"lng": 11.94182
+			},
+			{
+				"lat": 57.73466,
+				"lng": 11.94185
+			},
+			{
+				"lat": 57.73452,
+				"lng": 11.94185
+			},
+			{
+				"lat": 57.73438,
+				"lng": 11.94177
+			},
+			{
+				"lat": 57.73438,
+				"lng": 11.94177
+			},
+			{
+				"lat": 57.73436,
+				"lng": 11.94174
+			},
+			{
+				"lat": 57.73434,
+				"lng": 11.94172
+			},
+			{
+				"lat": 57.73432,
+				"lng": 11.9417
+			},
+			{
+				"lat": 57.73429,
+				"lng": 11.94169
+			},
+			{
+				"lat": 57.73426,
+				"lng": 11.94169
+			},
+			{
+				"lat": 57.73423,
+				"lng": 11.9417
+			},
+			{
+				"lat": 57.7342,
+				"lng": 11.94173
+			},
+			{
+				"lat": 57.73419,
+				"lng": 11.94175
+			},
+			{
+				"lat": 57.73419,
+				"lng": 11.94175
+			},
+			{
+				"lat": 57.73412,
+				"lng": 11.9418
+			},
+			{
+				"lat": 57.73406,
+				"lng": 11.94183
+			},
+			{
+				"lat": 57.73373,
+				"lng": 11.94193
+			},
+			{
+				"lat": 57.73354,
+				"lng": 11.94201
+			},
+			{
+				"lat": 57.73338,
+				"lng": 11.94212
+			},
+			{
+				"lat": 57.73289,
+				"lng": 11.94228
+			},
+			{
+				"lat": 57.73267,
+				"lng": 11.94237
+			},
+			{
+				"lat": 57.73256,
+				"lng": 11.94236
+			},
+			{
+				"lat": 57.73242,
+				"lng": 11.94239
+			},
+			{
+				"lat": 57.73228,
+				"lng": 11.94247
+			},
+			{
+				"lat": 57.73223,
+				"lng": 11.9425
+			},
+			{
+				"lat": 57.7322,
+				"lng": 11.94252
+			},
+			{
+				"lat": 57.73211,
+				"lng": 11.94254
+			},
+			{
+				"lat": 57.73204,
+				"lng": 11.94254
+			},
+			{
+				"lat": 57.73204,
+				"lng": 11.94254
+			},
+			{
+				"lat": 57.73199,
+				"lng": 11.94249
+			},
+			{
+				"lat": 57.73193,
+				"lng": 11.94248
+			},
+			{
+				"lat": 57.73187,
+				"lng": 11.94252
+			},
+			{
+				"lat": 57.73184,
+				"lng": 11.94258
+			},
+			{
+				"lat": 57.73183,
+				"lng": 11.94264
+			},
+			{
+				"lat": 57.73182,
+				"lng": 11.94272
+			},
+			{
+				"lat": 57.73182,
+				"lng": 11.94272
+			},
+			{
+				"lat": 57.73176,
+				"lng": 11.94284
+			},
+			{
+				"lat": 57.73149,
+				"lng": 11.94318
+			},
+			{
+				"lat": 57.73108,
+				"lng": 11.94355
+			},
+			{
+				"lat": 57.73071,
+				"lng": 11.94387
+			},
+			{
+				"lat": 57.7304,
+				"lng": 11.94405
+			},
+			{
+				"lat": 57.73024,
+				"lng": 11.94415
+			},
+			{
+				"lat": 57.73001,
+				"lng": 11.94425
+			},
+			{
+				"lat": 57.73001,
+				"lng": 11.94425
+			},
+			{
+				"lat": 57.7299,
+				"lng": 11.94443
+			},
+			{
+				"lat": 57.7298,
+				"lng": 11.94472
+			},
+			{
+				"lat": 57.72977,
+				"lng": 11.9449
+			},
+			{
+				"lat": 57.72976,
+				"lng": 11.94495
+			},
+			{
+				"lat": 57.72974,
+				"lng": 11.94578
+			},
+			{
+				"lat": 57.72974,
+				"lng": 11.94594
+			},
+			{
+				"lat": 57.72974,
+				"lng": 11.94606
+			},
+			{
+				"lat": 57.72974,
+				"lng": 11.94611
+			},
+			{
+				"lat": 57.72976,
+				"lng": 11.94687
+			},
+			{
+				"lat": 57.72973,
+				"lng": 11.94764
+			},
+			{
+				"lat": 57.72973,
+				"lng": 11.94788
+			},
+			{
+				"lat": 57.72959,
+				"lng": 11.94886
+			},
+			{
+				"lat": 57.72954,
+				"lng": 11.94906
+			},
+			{
+				"lat": 57.72954,
+				"lng": 11.94906
+			},
+			{
+				"lat": 57.72949,
+				"lng": 11.94908
+			},
+			{
+				"lat": 57.72946,
+				"lng": 11.94912
+			},
+			{
+				"lat": 57.72942,
+				"lng": 11.94923
+			},
+			{
+				"lat": 57.72941,
+				"lng": 11.94932
+			},
+			{
+				"lat": 57.72942,
+				"lng": 11.9494
+			},
+			{
+				"lat": 57.72946,
+				"lng": 11.94951
+			},
+			{
+				"lat": 57.72946,
+				"lng": 11.94951
+			},
+			{
+				"lat": 57.7295,
+				"lng": 11.94981
+			},
+			{
+				"lat": 57.72954,
+				"lng": 11.95026
+			},
+			{
+				"lat": 57.72958,
+				"lng": 11.95135
+			},
+			{
+				"lat": 57.72963,
+				"lng": 11.95196
+			},
+			{
+				"lat": 57.72966,
+				"lng": 11.95244
+			},
+			{
+				"lat": 57.72974,
+				"lng": 11.95353
+			},
+			{
+				"lat": 57.72973,
+				"lng": 11.95387
+			},
+			{
+				"lat": 57.72971,
+				"lng": 11.9541
+			},
+			{
+				"lat": 57.72968,
+				"lng": 11.95426
+			},
+			{
+				"lat": 57.72968,
+				"lng": 11.95426
+			},
+			{
+				"lat": 57.72965,
+				"lng": 11.95435
+			},
+			{
+				"lat": 57.72965,
+				"lng": 11.95435
+			},
+			{
+				"lat": 57.7295,
+				"lng": 11.95447
+			},
+			{
+				"lat": 57.72931,
+				"lng": 11.95463
+			},
+			{
+				"lat": 57.72925,
+				"lng": 11.95472
+			},
+			{
+				"lat": 57.72918,
+				"lng": 11.95487
+			},
+			{
+				"lat": 57.72895,
+				"lng": 11.95535
+			},
+			{
+				"lat": 57.72883,
+				"lng": 11.95554
+			},
+			{
+				"lat": 57.72874,
+				"lng": 11.95573
+			},
+			{
+				"lat": 57.72793,
+				"lng": 11.95727
+			},
+			{
+				"lat": 57.72778,
+				"lng": 11.95759
+			},
+			{
+				"lat": 57.72769,
+				"lng": 11.95784
+			},
+			{
+				"lat": 57.72766,
+				"lng": 11.95793
+			},
+			{
+				"lat": 57.72763,
+				"lng": 11.95799
+			},
+			{
+				"lat": 57.7273,
+				"lng": 11.95913
+			},
+			{
+				"lat": 57.72719,
+				"lng": 11.9595
+			},
+			{
+				"lat": 57.72709,
+				"lng": 11.95987
+			},
+			{
+				"lat": 57.72703,
+				"lng": 11.96007
+			},
+			{
+				"lat": 57.72697,
+				"lng": 11.96029
+			},
+			{
+				"lat": 57.72694,
+				"lng": 11.96039
+			},
+			{
+				"lat": 57.72693,
+				"lng": 11.96041
+			},
+			{
+				"lat": 57.72691,
+				"lng": 11.96063
+			},
+			{
+				"lat": 57.72691,
+				"lng": 11.96063
+			},
+			{
+				"lat": 57.72687,
+				"lng": 11.96067
+			},
+			{
+				"lat": 57.72685,
+				"lng": 11.96073
+			},
+			{
+				"lat": 57.72683,
+				"lng": 11.96081
+			},
+			{
+				"lat": 57.72683,
+				"lng": 11.96081
+			},
+			{
+				"lat": 57.7266,
+				"lng": 11.96057
+			},
+			{
+				"lat": 57.72474,
+				"lng": 11.95876
+			},
+			{
+				"lat": 57.72474,
+				"lng": 11.95876
+			},
+			{
+				"lat": 57.72476,
+				"lng": 11.95869
+			},
+			{
+				"lat": 57.72476,
+				"lng": 11.95862
+			},
+			{
+				"lat": 57.72475,
+				"lng": 11.95856
+			},
+			{
+				"lat": 57.72473,
+				"lng": 11.9585
+			},
+			{
+				"lat": 57.72469,
+				"lng": 11.95844
+			},
+			{
+				"lat": 57.72465,
+				"lng": 11.95843
+			},
+			{
+				"lat": 57.7246,
+				"lng": 11.95844
+			},
+			{
+				"lat": 57.72457,
+				"lng": 11.95849
+			},
+			{
+				"lat": 57.72454,
+				"lng": 11.95854
+			},
+			{
+				"lat": 57.72453,
+				"lng": 11.95865
+			},
+			{
+				"lat": 57.72454,
+				"lng": 11.95874
+			},
+			{
+				"lat": 57.72454,
+				"lng": 11.95874
+			},
+			{
+				"lat": 57.7245,
+				"lng": 11.95896
+			},
+			{
+				"lat": 57.72444,
+				"lng": 11.95909
+			},
+			{
+				"lat": 57.72438,
+				"lng": 11.95921
+			},
+			{
+				"lat": 57.72438,
+				"lng": 11.95921
+			},
+			{
+				"lat": 57.72428,
+				"lng": 11.95931
+			},
+			{
+				"lat": 57.72418,
+				"lng": 11.95944
+			},
+			{
+				"lat": 57.72411,
+				"lng": 11.95949
+			},
+			{
+				"lat": 57.72404,
+				"lng": 11.95951
+			},
+			{
+				"lat": 57.72395,
+				"lng": 11.95949
+			},
+			{
+				"lat": 57.72376,
+				"lng": 11.9593
+			},
+			{
+				"lat": 57.72348,
+				"lng": 11.95899
+			},
+			{
+				"lat": 57.72329,
+				"lng": 11.95872
+			},
+			{
+				"lat": 57.72317,
+				"lng": 11.95852
+			},
+			{
+				"lat": 57.72299,
+				"lng": 11.95825
+			},
+			{
+				"lat": 57.72284,
+				"lng": 11.95805
+			},
+			{
+				"lat": 57.72269,
+				"lng": 11.95786
+			},
+			{
+				"lat": 57.72258,
+				"lng": 11.95775
+			},
+			{
+				"lat": 57.72239,
+				"lng": 11.95756
+			},
+			{
+				"lat": 57.72239,
+				"lng": 11.95756
+			},
+			{
+				"lat": 57.72049,
+				"lng": 11.95556
+			},
+			{
+				"lat": 57.71988,
+				"lng": 11.95495
+			},
+			{
+				"lat": 57.71932,
+				"lng": 11.95439
+			},
+			{
+				"lat": 57.71874,
+				"lng": 11.95376
+			},
+			{
+				"lat": 57.71858,
+				"lng": 11.95354
+			},
+			{
+				"lat": 57.71835,
+				"lng": 11.95324
+			},
+			{
+				"lat": 57.71829,
+				"lng": 11.95314
+			},
+			{
+				"lat": 57.71777,
+				"lng": 11.95226
+			},
+			{
+				"lat": 57.717,
+				"lng": 11.95088
+			},
+			{
+				"lat": 57.71628,
+				"lng": 11.9496
+			},
+			{
+				"lat": 57.71528,
+				"lng": 11.94783
+			},
+			{
+				"lat": 57.71466,
+				"lng": 11.94673
+			},
+			{
+				"lat": 57.71435,
+				"lng": 11.94616
+			},
+			{
+				"lat": 57.71408,
+				"lng": 11.94565
+			},
+			{
+				"lat": 57.71383,
+				"lng": 11.94512
+			},
+			{
+				"lat": 57.71361,
+				"lng": 11.94464
+			},
+			{
+				"lat": 57.71334,
+				"lng": 11.944
+			},
+			{
+				"lat": 57.71313,
+				"lng": 11.94348
+			},
+			{
+				"lat": 57.71292,
+				"lng": 11.94294
+			},
+			{
+				"lat": 57.71278,
+				"lng": 11.94255
+			},
+			{
+				"lat": 57.71269,
+				"lng": 11.94227
+			},
+			{
+				"lat": 57.71259,
+				"lng": 11.94192
+			},
+			{
+				"lat": 57.7125,
+				"lng": 11.94146
+			},
+			{
+				"lat": 57.71243,
+				"lng": 11.94105
+			},
+			{
+				"lat": 57.71238,
+				"lng": 11.94062
+			},
+			{
+				"lat": 57.71235,
+				"lng": 11.94015
+			},
+			{
+				"lat": 57.71232,
+				"lng": 11.93968
+			},
+			{
+				"lat": 57.71218,
+				"lng": 11.93708
+			},
+			{
+				"lat": 57.71209,
+				"lng": 11.93554
+			},
+			{
+				"lat": 57.71196,
+				"lng": 11.93303
+			},
+			{
+				"lat": 57.71192,
+				"lng": 11.93186
+			},
+			{
+				"lat": 57.71189,
+				"lng": 11.93119
+			},
+			{
+				"lat": 57.71186,
+				"lng": 11.93097
+			},
+			{
+				"lat": 57.71184,
+				"lng": 11.93083
+			},
+			{
+				"lat": 57.71174,
+				"lng": 11.93034
+			},
+			{
+				"lat": 57.7116,
+				"lng": 11.92979
+			},
+			{
+				"lat": 57.71151,
+				"lng": 11.92953
+			},
+			{
+				"lat": 57.71139,
+				"lng": 11.92922
+			},
+			{
+				"lat": 57.71128,
+				"lng": 11.929
+			},
+			{
+				"lat": 57.71097,
+				"lng": 11.92827
+			},
+			{
+				"lat": 57.71088,
+				"lng": 11.92803
+			},
+			{
+				"lat": 57.71073,
+				"lng": 11.92752
+			},
+			{
+				"lat": 57.71047,
+				"lng": 11.92655
+			},
+			{
+				"lat": 57.7104,
+				"lng": 11.92621
+			},
+			{
+				"lat": 57.71035,
+				"lng": 11.92591
+			},
+			{
+				"lat": 57.71032,
+				"lng": 11.92565
+			},
+			{
+				"lat": 57.7103,
+				"lng": 11.9254
+			},
+			{
+				"lat": 57.71029,
+				"lng": 11.92515
+			},
+			{
+				"lat": 57.71029,
+				"lng": 11.92468
+			},
+			{
+				"lat": 57.71032,
+				"lng": 11.92413
+			},
+			{
+				"lat": 57.71044,
+				"lng": 11.92331
+			},
+			{
+				"lat": 57.71061,
+				"lng": 11.92258
+			},
+			{
+				"lat": 57.71061,
+				"lng": 11.92258
+			},
+			{
+				"lat": 57.71109,
+				"lng": 11.92066
+			},
+			{
+				"lat": 57.71213,
+				"lng": 11.9178
+			},
+			{
+				"lat": 57.71276,
+				"lng": 11.91525
+			},
+			{
+				"lat": 57.71282,
+				"lng": 11.9139
+			},
+			{
+				"lat": 57.71289,
+				"lng": 11.91248
+			},
+			{
+				"lat": 57.71236,
+				"lng": 11.90572
+			},
+			{
+				"lat": 57.71155,
+				"lng": 11.90038
+			},
+			{
+				"lat": 57.71084,
+				"lng": 11.89744
+			},
+			{
+				"lat": 57.70991,
+				"lng": 11.8951
+			},
+			{
+				"lat": 57.70868,
+				"lng": 11.89255
+			},
+			{
+				"lat": 57.7084,
+				"lng": 11.89201
+			},
+			{
+				"lat": 57.70828,
+				"lng": 11.89178
+			},
+			{
+				"lat": 57.70811,
+				"lng": 11.89155
+			},
+			{
+				"lat": 57.70785,
+				"lng": 11.89132
+			},
+			{
+				"lat": 57.70751,
+				"lng": 11.89104
+			},
+			{
+				"lat": 57.70751,
+				"lng": 11.89104
+			},
+			{
+				"lat": 57.70729,
+				"lng": 11.89091
+			},
+			{
+				"lat": 57.70709,
+				"lng": 11.89074
+			},
+			{
+				"lat": 57.70666,
+				"lng": 11.8904
+			},
+			{
+				"lat": 57.70631,
+				"lng": 11.89012
+			},
+			{
+				"lat": 57.70618,
+				"lng": 11.89003
+			},
+			{
+				"lat": 57.70605,
+				"lng": 11.88995
+			},
+			{
+				"lat": 57.70593,
+				"lng": 11.88991
+			},
+			{
+				"lat": 57.70581,
+				"lng": 11.88987
+			},
+			{
+				"lat": 57.70572,
+				"lng": 11.88987
+			},
+			{
+				"lat": 57.70559,
+				"lng": 11.88988
+			},
+			{
+				"lat": 57.70545,
+				"lng": 11.88991
+			},
+			{
+				"lat": 57.70533,
+				"lng": 11.88996
+			},
+			{
+				"lat": 57.70523,
+				"lng": 11.89003
+			},
+			{
+				"lat": 57.70511,
+				"lng": 11.89012
+			},
+			{
+				"lat": 57.70499,
+				"lng": 11.89025
+			},
+			{
+				"lat": 57.7049,
+				"lng": 11.89038
+			},
+			{
+				"lat": 57.70476,
+				"lng": 11.89058
+			},
+			{
+				"lat": 57.70468,
+				"lng": 11.89074
+			},
+			{
+				"lat": 57.70463,
+				"lng": 11.89084
+			},
+			{
+				"lat": 57.70459,
+				"lng": 11.89096
+			},
+			{
+				"lat": 57.70454,
+				"lng": 11.8911
+			},
+			{
+				"lat": 57.7045,
+				"lng": 11.89127
+			},
+			{
+				"lat": 57.70446,
+				"lng": 11.8914
+			},
+			{
+				"lat": 57.70443,
+				"lng": 11.8915
+			},
+			{
+				"lat": 57.70438,
+				"lng": 11.89161
+			},
+			{
+				"lat": 57.70433,
+				"lng": 11.8917
+			},
+			{
+				"lat": 57.70424,
+				"lng": 11.89181
+			},
+			{
+				"lat": 57.70418,
+				"lng": 11.89187
+			},
+			{
+				"lat": 57.70385,
+				"lng": 11.89214
+			},
+			{
+				"lat": 57.70375,
+				"lng": 11.89219
+			},
+			{
+				"lat": 57.70323,
+				"lng": 11.89256
+			},
+			{
+				"lat": 57.70275,
+				"lng": 11.89288
+			},
+			{
+				"lat": 57.70204,
+				"lng": 11.89341
+			},
+			{
+				"lat": 57.7013,
+				"lng": 11.89388
+			},
+			{
+				"lat": 57.70066,
+				"lng": 11.89433
+			},
+			{
+				"lat": 57.70066,
+				"lng": 11.89433
+			},
+			{
+				"lat": 57.70034,
+				"lng": 11.89454
+			},
+			{
+				"lat": 57.69992,
+				"lng": 11.89481
+			},
+			{
+				"lat": 57.69949,
+				"lng": 11.89518
+			},
+			{
+				"lat": 57.69908,
+				"lng": 11.89556
+			},
+			{
+				"lat": 57.69832,
+				"lng": 11.89617
+			},
+			{
+				"lat": 57.69803,
+				"lng": 11.89641
+			},
+			{
+				"lat": 57.69773,
+				"lng": 11.89666
+			},
+			{
+				"lat": 57.69747,
+				"lng": 11.89688
+			},
+			{
+				"lat": 57.69721,
+				"lng": 11.8971
+			},
+			{
+				"lat": 57.69668,
+				"lng": 11.89757
+			},
+			{
+				"lat": 57.69635,
+				"lng": 11.89784
+			},
+			{
+				"lat": 57.69601,
+				"lng": 11.8981
+			},
+			{
+				"lat": 57.69562,
+				"lng": 11.89843
+			},
+			{
+				"lat": 57.69511,
+				"lng": 11.89882
+			},
+			{
+				"lat": 57.69496,
+				"lng": 11.89893
+			},
+			{
+				"lat": 57.69481,
+				"lng": 11.89905
+			},
+			{
+				"lat": 57.69466,
+				"lng": 11.89917
+			},
+			{
+				"lat": 57.69466,
+				"lng": 11.89917
+			},
+			{
+				"lat": 57.68722,
+				"lng": 11.90381
+			},
+			{
+				"lat": 57.68671,
+				"lng": 11.90406
+			},
+			{
+				"lat": 57.68671,
+				"lng": 11.90406
+			},
+			{
+				"lat": 57.68644,
+				"lng": 11.90417
+			},
+			{
+				"lat": 57.68623,
+				"lng": 11.9042
+			},
+			{
+				"lat": 57.68604,
+				"lng": 11.90422
+			},
+			{
+				"lat": 57.68563,
+				"lng": 11.9042
+			},
+			{
+				"lat": 57.68524,
+				"lng": 11.90414
+			},
+			{
+				"lat": 57.68488,
+				"lng": 11.90406
+			},
+			{
+				"lat": 57.68446,
+				"lng": 11.90398
+			},
+			{
+				"lat": 57.68419,
+				"lng": 11.90395
+			},
+			{
+				"lat": 57.68419,
+				"lng": 11.90395
+			},
+			{
+				"lat": 57.68399,
+				"lng": 11.90392
+			},
+			{
+				"lat": 57.68347,
+				"lng": 11.90392
+			},
+			{
+				"lat": 57.68303,
+				"lng": 11.90403
+			},
+			{
+				"lat": 57.68247,
+				"lng": 11.90413
+			},
+			{
+				"lat": 57.6823,
+				"lng": 11.90409
+			},
+			{
+				"lat": 57.68217,
+				"lng": 11.90409
+			},
+			{
+				"lat": 57.68204,
+				"lng": 11.90407
+			},
+			{
+				"lat": 57.68188,
+				"lng": 11.904
+			},
+			{
+				"lat": 57.68169,
+				"lng": 11.90387
+			},
+			{
+				"lat": 57.68143,
+				"lng": 11.90362
+			},
+			{
+				"lat": 57.68124,
+				"lng": 11.90346
+			},
+			{
+				"lat": 57.68124,
+				"lng": 11.90346
+			},
+			{
+				"lat": 57.68103,
+				"lng": 11.90339
+			},
+			{
+				"lat": 57.68094,
+				"lng": 11.90338
+			},
+			{
+				"lat": 57.68087,
+				"lng": 11.90339
+			},
+			{
+				"lat": 57.68081,
+				"lng": 11.90341
+			},
+			{
+				"lat": 57.68074,
+				"lng": 11.90344
+			},
+			{
+				"lat": 57.68068,
+				"lng": 11.90348
+			},
+			{
+				"lat": 57.68063,
+				"lng": 11.90353
+			},
+			{
+				"lat": 57.68055,
+				"lng": 11.90361
+			},
+			{
+				"lat": 57.68055,
+				"lng": 11.90361
+			},
+			{
+				"lat": 57.6805,
+				"lng": 11.90368
+			},
+			{
+				"lat": 57.68046,
+				"lng": 11.90375
+			},
+			{
+				"lat": 57.68042,
+				"lng": 11.90383
+			},
+			{
+				"lat": 57.68038,
+				"lng": 11.90393
+			},
+			{
+				"lat": 57.68034,
+				"lng": 11.90404
+			},
+			{
+				"lat": 57.68031,
+				"lng": 11.90415
+			},
+			{
+				"lat": 57.68028,
+				"lng": 11.90427
+			},
+			{
+				"lat": 57.68023,
+				"lng": 11.90448
+			},
+			{
+				"lat": 57.68018,
+				"lng": 11.90481
+			},
+			{
+				"lat": 57.68013,
+				"lng": 11.90517
+			},
+			{
+				"lat": 57.68006,
+				"lng": 11.90608
+			},
+			{
+				"lat": 57.68001,
+				"lng": 11.90714
+			},
+			{
+				"lat": 57.68002,
+				"lng": 11.90776
+			},
+			{
+				"lat": 57.68002,
+				"lng": 11.90859
+			},
+			{
+				"lat": 57.68,
+				"lng": 11.9094
+			},
+			{
+				"lat": 57.67996,
+				"lng": 11.90984
+			},
+			{
+				"lat": 57.67989,
+				"lng": 11.91032
+			},
+			{
+				"lat": 57.67979,
+				"lng": 11.91077
+			},
+			{
+				"lat": 57.67964,
+				"lng": 11.91122
+			},
+			{
+				"lat": 57.67948,
+				"lng": 11.91155
+			},
+			{
+				"lat": 57.67932,
+				"lng": 11.91183
+			},
+			{
+				"lat": 57.67912,
+				"lng": 11.91207
+			},
+			{
+				"lat": 57.67896,
+				"lng": 11.91222
+			},
+			{
+				"lat": 57.67879,
+				"lng": 11.91234
+			},
+			{
+				"lat": 57.6784,
+				"lng": 11.91256
+			},
+			{
+				"lat": 57.67808,
+				"lng": 11.91275
+			},
+			{
+				"lat": 57.67784,
+				"lng": 11.91292
+			},
+			{
+				"lat": 57.67759,
+				"lng": 11.91317
+			},
+			{
+				"lat": 57.67746,
+				"lng": 11.91336
+			},
+			{
+				"lat": 57.67733,
+				"lng": 11.91359
+			},
+			{
+				"lat": 57.67692,
+				"lng": 11.91445
+			},
+			{
+				"lat": 57.67646,
+				"lng": 11.91551
+			},
+			{
+				"lat": 57.67615,
+				"lng": 11.91621
+			},
+			{
+				"lat": 57.67588,
+				"lng": 11.91694
+			},
+			{
+				"lat": 57.67538,
+				"lng": 11.91834
+			},
+			{
+				"lat": 57.67522,
+				"lng": 11.91887
+			},
+			{
+				"lat": 57.67516,
+				"lng": 11.91909
+			},
+			{
+				"lat": 57.67507,
+				"lng": 11.91949
+			},
+			{
+				"lat": 57.67487,
+				"lng": 11.92045
+			},
+			{
+				"lat": 57.67474,
+				"lng": 11.92133
+			},
+			{
+				"lat": 57.6747,
+				"lng": 11.9218
+			},
+			{
+				"lat": 57.67468,
+				"lng": 11.92227
+			},
+			{
+				"lat": 57.67468,
+				"lng": 11.92285
+			},
+			{
+				"lat": 57.6747,
+				"lng": 11.92328
+			},
+			{
+				"lat": 57.67473,
+				"lng": 11.92369
+			},
+			{
+				"lat": 57.67477,
+				"lng": 11.92398
+			},
+			{
+				"lat": 57.67488,
+				"lng": 11.92452
+			},
+			{
+				"lat": 57.67499,
+				"lng": 11.925
+			},
+			{
+				"lat": 57.67547,
+				"lng": 11.92697
+			},
+			{
+				"lat": 57.67596,
+				"lng": 11.92901
+			},
+			{
+				"lat": 57.67607,
+				"lng": 11.92945
+			},
+			{
+				"lat": 57.6762,
+				"lng": 11.93007
+			},
+			{
+				"lat": 57.67646,
+				"lng": 11.93139
+			},
+			{
+				"lat": 57.6767,
+				"lng": 11.93251
+			},
+			{
+				"lat": 57.6767,
+				"lng": 11.93251
+			},
+			{
+				"lat": 57.67678,
+				"lng": 11.93289
+			},
+			{
+				"lat": 57.67684,
+				"lng": 11.9334
+			},
+			{
+				"lat": 57.67687,
+				"lng": 11.93354
+			},
+			{
+				"lat": 57.67689,
+				"lng": 11.93364
+			},
+			{
+				"lat": 57.67689,
+				"lng": 11.93364
+			},
+			{
+				"lat": 57.67688,
+				"lng": 11.93371
+			},
+			{
+				"lat": 57.67689,
+				"lng": 11.93376
+			},
+			{
+				"lat": 57.67691,
+				"lng": 11.93383
+			},
+			{
+				"lat": 57.67692,
+				"lng": 11.93386
+			},
+			{
+				"lat": 57.67693,
+				"lng": 11.93388
+			},
+			{
+				"lat": 57.67696,
+				"lng": 11.93391
+			},
+			{
+				"lat": 57.67698,
+				"lng": 11.93392
+			},
+			{
+				"lat": 57.67702,
+				"lng": 11.93393
+			},
+			{
+				"lat": 57.67702,
+				"lng": 11.93393
+			},
+			{
+				"lat": 57.67711,
+				"lng": 11.93401
+			},
+			{
+				"lat": 57.67721,
+				"lng": 11.93413
+			},
+			{
+				"lat": 57.67731,
+				"lng": 11.93419
+			},
+			{
+				"lat": 57.67735,
+				"lng": 11.93421
+			},
+			{
+				"lat": 57.67742,
+				"lng": 11.93426
+			},
+			{
+				"lat": 57.67751,
+				"lng": 11.93432
+			},
+			{
+				"lat": 57.67761,
+				"lng": 11.9344
+			},
+			{
+				"lat": 57.6777,
+				"lng": 11.93446
+			},
+			{
+				"lat": 57.67781,
+				"lng": 11.93454
+			},
+			{
+				"lat": 57.67795,
+				"lng": 11.93464
+			},
+			{
+				"lat": 57.67807,
+				"lng": 11.93473
+			},
+			{
+				"lat": 57.67822,
+				"lng": 11.93483
+			},
+			{
+				"lat": 57.67841,
+				"lng": 11.93497
+			},
+			{
+				"lat": 57.67862,
+				"lng": 11.93513
+			},
+			{
+				"lat": 57.6788,
+				"lng": 11.93525
+			},
+			{
+				"lat": 57.67897,
+				"lng": 11.93537
+			},
+			{
+				"lat": 57.67916,
+				"lng": 11.93551
+			},
+			{
+				"lat": 57.67926,
+				"lng": 11.93558
+			},
+			{
+				"lat": 57.67934,
+				"lng": 11.93564
+			},
+			{
+				"lat": 57.67939,
+				"lng": 11.93568
+			},
+			{
+				"lat": 57.67948,
+				"lng": 11.93575
+			},
+			{
+				"lat": 57.67948,
+				"lng": 11.93575
+			},
+			{
+				"lat": 57.6795,
+				"lng": 11.93584
+			},
+			{
+				"lat": 57.6795,
+				"lng": 11.93584
+			},
+			{
+				"lat": 57.67952,
+				"lng": 11.93603
+			},
+			{
+				"lat": 57.67954,
+				"lng": 11.93612
+			},
+			{
+				"lat": 57.67955,
+				"lng": 11.93621
+			},
+			{
+				"lat": 57.67958,
+				"lng": 11.93649
+			},
+			{
+				"lat": 57.67963,
+				"lng": 11.93681
+			},
+			{
+				"lat": 57.67971,
+				"lng": 11.93751
+			},
+			{
+				"lat": 57.67978,
+				"lng": 11.93813
+			},
+			{
+				"lat": 57.67985,
+				"lng": 11.93867
+			},
+			{
+				"lat": 57.67993,
+				"lng": 11.93931
+			},
+			{
+				"lat": 57.67993,
+				"lng": 11.93986
+			},
+			{
+				"lat": 57.67994,
+				"lng": 11.94005
+			},
+			{
+				"lat": 57.67994,
+				"lng": 11.94028
+			},
+			{
+				"lat": 57.67995,
+				"lng": 11.94047
+			},
+			{
+				"lat": 57.67996,
+				"lng": 11.9406
+			},
+			{
+				"lat": 57.67998,
+				"lng": 11.94075
+			},
+			{
+				"lat": 57.68,
+				"lng": 11.94084
+			},
+			{
+				"lat": 57.68003,
+				"lng": 11.94093
+			},
+			{
+				"lat": 57.68005,
+				"lng": 11.94101
+			},
+			{
+				"lat": 57.68008,
+				"lng": 11.94112
+			},
+			{
+				"lat": 57.68014,
+				"lng": 11.94128
+			},
+			{
+				"lat": 57.68024,
+				"lng": 11.94144
+			},
+			{
+				"lat": 57.68043,
+				"lng": 11.94179
+			},
+			{
+				"lat": 57.68066,
+				"lng": 11.94234
+			},
+			{
+				"lat": 57.68076,
+				"lng": 11.94272
+			},
+			{
+				"lat": 57.68082,
+				"lng": 11.94315
+			},
+			{
+				"lat": 57.68082,
+				"lng": 11.94318
+			},
+			{
+				"lat": 57.68088,
+				"lng": 11.9435
+			},
+			{
+				"lat": 57.68091,
+				"lng": 11.94388
+			},
+			{
+				"lat": 57.68092,
+				"lng": 11.9441
+			},
+			{
+				"lat": 57.68094,
+				"lng": 11.94434
+			},
+			{
+				"lat": 57.68093,
+				"lng": 11.94447
+			},
+			{
+				"lat": 57.68092,
+				"lng": 11.94461
+			},
+			{
+				"lat": 57.6809,
+				"lng": 11.94484
+			},
+			{
+				"lat": 57.68086,
+				"lng": 11.94502
+			},
+			{
+				"lat": 57.6808,
+				"lng": 11.94522
+			},
+			{
+				"lat": 57.68075,
+				"lng": 11.94536
+			},
+			{
+				"lat": 57.68072,
+				"lng": 11.94545
+			},
+			{
+				"lat": 57.68049,
+				"lng": 11.94602
+			},
+			{
+				"lat": 57.68047,
+				"lng": 11.94607
+			},
+			{
+				"lat": 57.68047,
+				"lng": 11.94607
+			},
+			{
+				"lat": 57.68043,
+				"lng": 11.94617
+			},
+			{
+				"lat": 57.68037,
+				"lng": 11.94622
+			},
+			{
+				"lat": 57.68032,
+				"lng": 11.94626
+			},
+			{
+				"lat": 57.68015,
+				"lng": 11.94669
+			},
+			{
+				"lat": 57.67994,
+				"lng": 11.94725
+			},
+			{
+				"lat": 57.6797,
+				"lng": 11.94789
+			},
+			{
+				"lat": 57.67945,
+				"lng": 11.94857
+			},
+			{
+				"lat": 57.67945,
+				"lng": 11.94857
+			},
+			{
+				"lat": 57.67939,
+				"lng": 11.94849
+			},
+			{
+				"lat": 57.67939,
+				"lng": 11.94849
+			},
+			{
+				"lat": 57.67921,
+				"lng": 11.94897
+			},
+			{
+				"lat": 57.67921,
+				"lng": 11.94897
+			}
+		],
+		"instructions": [
+			{
+				"type": "Head",
+				"distance": 27,
+				"time": 17.5,
+				"road": "",
+				"direction": "NE",
+				"index": 0,
+				"mode": "driving",
+				"text": "Head northeast"
+			},
+			{
+				"type": "Left",
+				"distance": 161.1,
+				"time": 31.9,
+				"road": "Bäcktuvevägen",
+				"direction": "N",
+				"index": 5,
+				"mode": "driving",
+				"modifier": "Left",
+				"text": "Turn left onto Bäcktuvevägen"
+			},
+			{
+				"type": "SharpRight",
+				"distance": 18.2,
+				"time": 3.4,
+				"road": "Bäcktuvevägen",
+				"direction": "E",
+				"index": 9,
+				"mode": "driving",
+				"modifier": "SharpRight",
+				"text": "Make a sharp right to stay on Bäcktuvevägen"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 9.6,
+				"time": 1.5,
+				"road": "Tuvevägen",
+				"direction": "SE",
+				"exit": 1,
+				"index": 12,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Enter the traffic circle and take the 1st exit onto Tuvevägen (O 570)"
+			},
+			{
+				"type": "SlightRight",
+				"distance": 788.4,
+				"time": 60.9,
+				"road": "Tuvevägen",
+				"direction": "S",
+				"exit": 1,
+				"index": 15,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Exit the traffic circle onto Tuvevägen (O 570)"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 23.7,
+				"time": 5.2,
+				"road": "Tuvevägen",
+				"direction": "SW",
+				"exit": 2,
+				"index": 36,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Enter the traffic circle and take the 2nd exit onto Tuvevägen"
+			},
+			{
+				"type": "SlightRight",
+				"distance": 244.7,
+				"time": 31.1,
+				"road": "Tuvevägen",
+				"direction": "S",
+				"exit": 2,
+				"index": 45,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Exit the traffic circle onto Tuvevägen"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 33.4,
+				"time": 7.199999999999999,
+				"road": "Tuvevägen",
+				"direction": "SW",
+				"exit": 2,
+				"index": 60,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Enter the traffic circle and take the 2nd exit onto Tuvevägen"
+			},
+			{
+				"type": "Right",
+				"distance": 222.9,
+				"time": 26.3,
+				"road": "Tuvevägen",
+				"direction": "SE",
+				"exit": 2,
+				"index": 67,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Exit the traffic circle onto Tuvevägen"
+			},
+			{
+				"type": "SlightLeft",
+				"distance": 298.6,
+				"time": 48.599999999999994,
+				"road": "Minelundsvägen",
+				"direction": "SE",
+				"index": 75,
+				"mode": "driving",
+				"modifier": "SlightLeft",
+				"text": "Make a slight left onto Minelundsvägen"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 35.4,
+				"time": 7.8999999999999995,
+				"road": "Minelundsvägen",
+				"direction": "S",
+				"exit": 2,
+				"index": 89,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Enter the traffic circle and take the 2nd exit onto Minelundsvägen"
+			},
+			{
+				"type": "Straight",
+				"distance": 285.6,
+				"time": 39,
+				"road": "Minelundsvägen",
+				"direction": "E",
+				"exit": 2,
+				"index": 96,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Exit the traffic circle onto Minelundsvägen"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 5.8,
+				"time": 1,
+				"road": "Norra Deltavägen",
+				"direction": "SE",
+				"exit": 1,
+				"index": 106,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Enter the traffic circle and take the 1st exit onto Norra Deltavägen"
+			},
+			{
+				"type": "SlightRight",
+				"distance": 491.9,
+				"time": 56.900000000000006,
+				"road": "Norra Deltavägen",
+				"direction": "SE",
+				"exit": 1,
+				"index": 108,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Exit the traffic circle onto Norra Deltavägen"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 14.5,
+				"time": 6.2,
+				"road": "Backavägen",
+				"direction": "SE",
+				"exit": 1,
+				"index": 129,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Enter the traffic circle and take the 1st exit onto Backavägen"
+			},
+			{
+				"type": "Right",
+				"distance": 261.7,
+				"time": 36.5,
+				"road": "Backavägen",
+				"direction": "SW",
+				"exit": 1,
+				"index": 133,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Exit the traffic circle onto Backavägen"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 53.5,
+				"time": 11.5,
+				"road": "Leråkersmotet",
+				"direction": "W",
+				"exit": 2,
+				"index": 136,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Enter the traffic circle and take the 2nd exit onto Leråkersmotet"
+			},
+			{
+				"type": "SlightRight",
+				"distance": 34.3,
+				"time": 5.6,
+				"road": "Leråkersmotet",
+				"direction": "E",
+				"exit": 2,
+				"index": 148,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Exit the traffic circle onto Leråkersmotet"
+			},
+			{
+				"type": "OnRamp",
+				"distance": 260.2,
+				"time": 29.3,
+				"road": "",
+				"direction": "SE",
+				"index": 152,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Take the ramp on the right"
+			},
+			{
+				"type": "Merge",
+				"distance": 2659,
+				"time": 168.70000000000002,
+				"road": "Lundbyleden",
+				"direction": "SW",
+				"index": 167,
+				"mode": "driving",
+				"modifier": "Left",
+				"text": "Merge left onto Lundbyleden (E 6.21)"
+			},
+			{
+				"type": "Continue",
+				"distance": 2129.3,
+				"time": 127.5,
+				"road": "Lundbytunneln",
+				"direction": "NW",
+				"index": 220,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Continue onto Lundbytunneln (E 6.21)"
+			},
+			{
+				"type": "SlightLeft",
+				"distance": 849.3,
+				"time": 51.5,
+				"road": "",
+				"direction": "S",
+				"index": 236,
+				"mode": "driving",
+				"modifier": "SlightLeft",
+				"text": "Make a slight left"
+			},
+			{
+				"type": "Merge",
+				"distance": 727.7,
+				"time": 39.2,
+				"road": "Hisingsleden",
+				"direction": "S",
+				"index": 272,
+				"mode": "driving",
+				"modifier": "Left",
+				"text": "Merge left onto Hisingsleden"
+			},
+			{
+				"type": "Continue",
+				"distance": 930.2,
+				"time": 50,
+				"road": "Älvsborgsbron",
+				"direction": "S",
+				"index": 290,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Continue onto Älvsborgsbron"
+			},
+			{
+				"type": "Continue",
+				"distance": 282.2,
+				"time": 15.4,
+				"road": "Hisingsleden",
+				"direction": "S",
+				"index": 293,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Continue onto Hisingsleden"
+			},
+			{
+				"type": "OffRamp",
+				"distance": 336.4,
+				"time": 21.4,
+				"road": "",
+				"direction": "S",
+				"index": 302,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Take the ramp towards Kungssten"
+			},
+			{
+				"type": "Fork",
+				"distance": 80,
+				"time": 6.4,
+				"road": "",
+				"direction": "S",
+				"index": 314,
+				"mode": "driving",
+				"modifier": "Left",
+				"text": "Keep left towards Högsbohöjd"
+			},
+			{
+				"type": "Continue",
+				"distance": 2033.2,
+				"time": 126.3,
+				"road": "Högsboleden",
+				"direction": "SE",
+				"index": 323,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Continue onto Högsboleden"
+			},
+			{
+				"type": "Fork",
+				"distance": 70.3,
+				"time": 8.5,
+				"road": "Högsboleden",
+				"direction": "NE",
+				"index": 378,
+				"mode": "driving",
+				"modifier": "Left",
+				"text": "Keep left onto Högsboleden"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 26.5,
+				"time": 4.7,
+				"road": "Slottsskogsgatan",
+				"direction": "E",
+				"exit": 2,
+				"index": 383,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Enter the traffic circle and take the 2nd exit onto Slottsskogsgatan"
+			},
+			{
+				"type": "SlightRight",
+				"distance": 294.6,
+				"time": 34.6,
+				"road": "Slottsskogsgatan",
+				"direction": "NE",
+				"exit": 2,
+				"index": 392,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Exit the traffic circle onto Slottsskogsgatan"
+			},
+			{
+				"type": "Roundabout",
+				"distance": 5.8,
+				"time": 1,
+				"road": "Margretebergsgatan",
+				"direction": "NE",
+				"exit": 1,
+				"index": 414,
+				"mode": "driving",
+				"modifier": "SlightRight",
+				"text": "Enter the traffic circle and take the 1st exit onto Margretebergsgatan"
+			},
+			{
+				"type": "Straight",
+				"distance": 661.8,
+				"time": 68.10000000000001,
+				"road": "Margretebergsgatan",
+				"direction": "E",
+				"exit": 1,
+				"index": 416,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Exit the traffic circle onto Margretebergsgatan"
+			},
+			{
+				"type": "Continue",
+				"distance": 189,
+				"time": 44.5,
+				"road": "Storängsgatan",
+				"direction": "SE",
+				"index": 456,
+				"mode": "driving",
+				"modifier": "Straight",
+				"text": "Continue onto Storängsgatan"
+			},
+			{
+				"type": "EndOfRoad",
+				"distance": 8.1,
+				"time": 7.6,
+				"road": "Fyradalersgatan",
+				"direction": "SW",
+				"index": 464,
+				"mode": "driving",
+				"modifier": "Right",
+				"text": "Turn right onto Fyradalersgatan"
+			},
+			{
+				"type": "Left",
+				"distance": 34.9,
+				"time": 20.9,
+				"road": "Storängsgatan",
+				"direction": "SE",
+				"index": 466,
+				"mode": "driving",
+				"modifier": "Left",
+				"text": "Turn left onto Storängsgatan"
+			},
+			{
+				"type": "DestinationReached",
+				"distance": 0,
+				"time": 0,
+				"road": "Storängsgatan",
+				"direction": "N",
+				"index": 468,
+				"mode": "driving",
+				"text": "You have arrived at your destination"
+			}
+		],
+		"summary": {
+			"totalDistance": 14588.6,
+			"totalTime": 1223.8
+		},
+		"waypointIndices": [
+			0,
+			468
+		],
+		"inputWaypoints": [
+			{
+				"options": {
+					"allowUTurn": false
+				},
+				"latLng": {
+					"lat": 57.74,
+					"lng": 11.94
+				},
+				"_initHooksCalled": true
+			},
+			{
+				"options": {
+					"allowUTurn": false
+				},
+				"latLng": {
+					"lat": 57.6792,
+					"lng": 11.949
+				},
+				"_initHooksCalled": true
+			}
+		],
+		"waypoints": [
+			{
+				"options": {
+					"allowUTurn": false
+				},
+				"latLng": {
+					"lat": 57.739979,
+					"lng": 11.940063
+				},
+				"_initHooksCalled": true
+			},
+			{
+				"options": {
+					"allowUTurn": false
+				},
+				"latLng": {
+					"lat": 57.679212,
+					"lng": 11.948969
+				},
+				"_initHooksCalled": true
+			}
+		],
+		"properties": {
+			"isSimplified": true
+		}
+	}
+]
