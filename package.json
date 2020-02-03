@@ -2,11 +2,12 @@
   "name": "road-trip-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/generator.js",
+  "main": "src/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup dist/generator.js --format iife --name \"myBundle\" --file bundle.js -w",
-    "serve": "npx servor --reload"
+    "rollup": "rollup -cw",
+    "serve": "npx servor --reload",
+    "dev": "live-server --watch=build -V"
   },
   "keywords": [],
   "author": "",

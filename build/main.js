@@ -1,16 +1,16 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 class Overpass {
-    constructor(location) {
+    constructor(location, radius) {
         this.baseUrl = 'http://overpass-api.de/api/interpreter?data=';
         this.location = location;
+        this.radius = radius;
     }
     get script() {
         return `[out:json];
-node(${this.location.lat},${this.location.lng},${this.location.lat},${this.location.lng})->.center;
-node(around.center:10000)["place"="city"];
+node(${this.location.lat - 0.5},${this.location.lng - 0.5},${this.location.lat + 0.5},${this.location.lng + 0.5})->.center;
+(node(around.center:${this.radius})["place"="town"];
+node(around.center:${this.radius})["place"="village"];);
 out;`;
     }
     async fetch() {
@@ -31,12 +31,11 @@ class Route {
         // line.addTo(this.map);
         // this.map.fitBounds(line.getBounds());
     }
-    render() {
+    async render() {
         let sections = this.calculateSteps();
         sections = this.expandSections(sections);
         this.renderSections(sections);
-        const cities = this.fetchCities(sections);
-        console.log(cities);
+        await this.fetchCities(sections);
     }
     calculateSteps(minTime = 60 * 10, maxTime = 60 * 60) {
         const sections = [];
@@ -100,24 +99,26 @@ class Route {
     }
     async fetchCities(sections) {
         for (const section of sections) {
-            const finish = section.finish;
-            const overpass = new Overpass(finish);
+            const overpass = new Overpass(section.finish, 50000);
             const cities = await overpass.fetch();
+            console.log('around', section.finish, cities.elements.length);
             this.renderCities(cities.elements);
         }
     }
     renderCities(cities) {
         for (const city of cities) {
+            console.log(city);
             L.circleMarker(L.LatLng(city.lat, city.lon)).addTo(this.map);
         }
     }
 }
+//# sourceMappingURL=route.js.map
 
 class Generator {
     constructor() {
         this.fromTo = [
-            L.latLng(50.1213479, 8.4964827),
-            L.latLng(52.5069313, 13.1445601)
+            L.latLng(57.74, 11.94),
+            L.latLng(57.6792, 11.949),
         ];
         this.map = L.map('map');
         new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -188,5 +189,8 @@ class Generator {
         }
     }
 }
+//# sourceMappingURL=generator.js.map
 
-exports.Generator = Generator;
+// new Generator().startRouting();
+new Generator().demoRouting();
+//# sourceMappingURL=main.js.map
