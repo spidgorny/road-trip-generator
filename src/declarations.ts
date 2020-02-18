@@ -34,6 +34,9 @@ export interface IRoute {
 	inputWaypoints: Waypoint[];
 	waypoints: Waypoint[];
 	properties: any;
+	distance: number;
+	duration: number;
+	weight: number;
 }
 
 export interface Section {

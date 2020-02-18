@@ -18,6 +18,9 @@ export class Generator {
 
 	route: IRoute;
 
+	splitAfter: number;
+	private afterRoutingCallback: Function;
+
 	constructor() {
 		this.map = L.map('map');
 		new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -37,6 +40,10 @@ export class Generator {
 
 	setTo(lat, lon) {
 		this.fromTo[1] = L.latLng(lat, lon);
+	}
+
+	setSplitAfter(sa: number) {
+		this.splitAfter = sa;
 	}
 
 	get bounds() {
@@ -68,43 +75,39 @@ export class Generator {
 
 	startRouting() {
 		const plan = new L.Routing.Plan(this.waypoints, {});
-		if (plan.isReady()) {
-			plan.addEventListener('waypointgeocoded', (e) => {
-				console.log('waypointgeocoded', e);
-			});
-			const osrm = new L.Routing.osrmv1();
-			osrm.route(this.waypoints, (err?, routes?: IRoute[]) => {
-				if (err) {
-					throw new Error(err.toString());
-				}
-				this.renderRoutes(routes);
-			});
+		if (!plan.isReady()) {
+			return;
 		}
-	}
-
-	async demoRouting() {
-		const plan = new L.Routing.Plan(this.waypoints, {});
-		if (plan.isReady()) {
-			const json = await fetch('fixture/demoRoute.json');
-			let routes = await json.json();
-
-			// fix after JSON serialization
-			routes = routes.map((route: IRoute) => {
-				route.inputWaypoints = route.inputWaypoints.map((wp) => {
-					return new L.Routing.Waypoint(wp.latLng, wp.name, wp.options);
-				});
-				return route;
-			});
+		plan.addEventListener('waypointgeocoded', (e) => {
+			console.log('waypointgeocoded', e);
+		});
+		const osrm = new L.Routing.osrmv1();
+		osrm.route(this.waypoints, (err?, routes?: IRoute[]) => {
+			if (err) {
+				throw new Error(err.toString());
+			}
 			this.renderRoutes(routes);
-		}
+		});
 	}
 
 	renderRoutes(routes: IRoute[]) {
 		// console.log('routes', routes);
 		for (const route of routes) {
-			new Route(this.map,  route).render();
+			let routeObj = new Route(this.map, route, this.splitAfter);
+			routeObj.render();
+			if (this.afterRoutingCallback) {
+				this.afterRoutingCallback(route);
+			}
 			break;
 		}
+		this.fixMap();
 	}
 
+	fixMap() {
+		this.map.fitBounds(this.bounds);
+	}
+
+	afterRouting(callback: Function) {
+		this.afterRoutingCallback = callback;
+	}
 }

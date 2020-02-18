@@ -19,4 +19,6 @@ The code gives you this route with stops in the following cities:
  * example
  * example
 
+![screenshot](docs/screenshot.png)
+
 That's all.

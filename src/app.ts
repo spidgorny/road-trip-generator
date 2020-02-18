@@ -2,6 +2,7 @@ import {Generator} from "./generator";
 
 import localforage from "localforage";
 import {Nominatim} from "./service/Nominatim";
+import {IRoute} from "./declarations";
 
 export class App {
 
@@ -18,6 +19,7 @@ export class App {
 		lat: number;
 		lon: number;
 	};
+	distance: number;
 
 	constructor(generator: Generator) {
 		this.generator = generator;
@@ -30,7 +32,7 @@ export class App {
 	async loadData() {
 		this.from = await localforage.getItem('from');
 		this.to = await localforage.getItem('to');
-		this.splitAfter = await localforage.getItem('splitAfter');
+		this.splitAfter = await localforage.getItem('splitAfter') || 2;
 		console.log(this.from, this.to, this.splitAfter);
 		await this.geocode();
 		this.render();
@@ -72,17 +74,21 @@ export class App {
 		const from = this.form.querySelector('#from') as HTMLInputElement;
 		from.value = this.from;
 
-		const fromLatLon = this.form.querySelector('#fromLatLon') as HTMLInputElement;
+		const fromLatLon = this.form.querySelector('#fromLatLon') as HTMLOutputElement;
 		fromLatLon.value = this.outputLatLon(this.fromLatLon);
 
 		const to = this.form.querySelector('#to') as HTMLInputElement;
 		to.value = this.to;
 
-		const toLatLon = this.form.querySelector('#toLatLon') as HTMLInputElement;
+		const toLatLon = this.form.querySelector('#toLatLon') as HTMLOutputElement;
 		toLatLon.value = this.outputLatLon(this.toLatLon);
 
 		const splitAfter = this.form.querySelector('#splitAfter') as HTMLInputElement;
 		splitAfter.value = this.splitAfter.toFixed(2);
+
+		const distance = this.form.querySelector('#distance') as HTMLOutputElement;
+		distance.value = (this.distance / 1000).toFixed(2);
+
 	}
 
 	private outputLatLon(json) {
@@ -97,8 +103,14 @@ export class App {
 		this.updateForm();
 		this.generator.setFrom(this.fromLatLon.lat, this.fromLatLon.lon);
 		this.generator.setTo(this.toLatLon.lat, this.toLatLon.lon);
+		this.generator.setSplitAfter(this.splitAfter);
+		this.generator.afterRouting(this.updateAfterRouting.bind(this));
+		this.generator.startRouting();
+	}
 
-		this.generator.demoRouting();
+	updateAfterRouting(route: IRoute) {
+		this.distance = route.distance;
+		this.updateForm();
 	}
 
 }

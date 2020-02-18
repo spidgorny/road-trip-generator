@@ -1,5 +1,5 @@
 import {IRoute, OverpassCity, Section} from "./declarations";
-import {Overpass} from "./overpass";
+import {Overpass} from "./service/overpass";
 
 declare var L: any;
 
@@ -7,17 +7,19 @@ export class Route {
 
 	map: any;
 	route: IRoute;
+	splitAfter: number;
 
-	constructor(map, route: IRoute) {
+	constructor(map, route: IRoute, splitAfter: number) {
 		this.map = map;
 		this.route = route;
+		this.splitAfter = splitAfter;
 		// const line = new L.Routing.Line(route);
 		// line.addTo(this.map);
 		// this.map.fitBounds(line.getBounds());
 	}
 
 	async render() {
-		let sections = this.calculateSteps();
+		let sections = this.calculateSteps(this.splitAfter * 60 * 60, this.splitAfter * 2 * 60 * 60);
 		sections = this.expandSections(sections);
 		this.renderSections(sections);
 		await this.fetchCities(sections);

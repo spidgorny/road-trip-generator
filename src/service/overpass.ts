@@ -1,4 +1,6 @@
-import {LatLng, OverpassResponse} from "./declarations";
+import {LatLng, OverpassResponse} from "../declarations";
+import {CacheFetchResults} from "./CacheFetchResults";
+// import {createfetchUnlessCached} from "fetch-unless-cached"
 
 export class Overpass {
 
@@ -7,10 +9,15 @@ export class Overpass {
 	location: LatLng;
 	radius: number;
 
+	cache: CacheFetchResults;
+	cachedFetch: any;
+
 	constructor(location: any, radius: number) {
 		this.location = location;
 		this.radius = radius;
-
+		// this.cachedFetch = createfetchUnlessCached(3000); // minutes
+		this.cache = new CacheFetchResults();
+		this.cachedFetch = this.cache.getFunction();
 	}
 
 	get script() {
@@ -25,13 +32,13 @@ out;`;
 		const json = await fetch(url);
 		const data = await json.text();
 		const isAvailable = data.includes('slots available now');
-		console.log('isAvailable', isAvailable);
+		// console.log('isAvailable', isAvailable);
 		if (isAvailable) {
 			return true;
 		}
 
 		const inXseconds = data.match(/in (\d+) seconds/);
-		console.log('inXseconds', inXseconds);
+		// console.log('inXseconds', inXseconds);
 		await this.pause(inXseconds[1]);
 		return true;
 	}
@@ -43,11 +50,11 @@ out;`;
 	}
 
 	async fetch(): Promise<OverpassResponse> {
+		await this.cache.fetchCache();	// make sure cache is initialized
 		await this.awaitSlots();
-		console.log(this.script);
+		// console.log(this.script);
 		const url = this.baseUrl + '/interpreter?data=' + encodeURIComponent(this.script);
-		const json = await fetch(url);
-		const data = await json.json();
+		const data = await this.cachedFetch(url);
 		// console.log(data);
 		return data;
 	}

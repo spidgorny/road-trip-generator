@@ -1,5 +1,5 @@
 import {Generator} from "./generator";
-import initMirage from "./mirage";
+import initMirage from "./service/mirage";
 import {App} from "./App";
 
 initMirage();
