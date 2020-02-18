@@ -1,17 +1,23 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Leaflet Routing Machine Example</title>
+    <title>Road Trip Generator</title>
+    <link rel="stylesheet" href="https://simplegrid.io/grid/simple-grid.css"/>
     <style>
         body {
             margin: 0;
         }
         .map {
-            position: absolute;
             width: 100%;
             height: 100%;
+        }
+        .form-control {
+            margin: 0.5em;
+        }
+        input {
+            width: 100%;
         }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -19,7 +25,35 @@
           crossorigin=""/>
 </head>
 <body>
-<div id="map" class="map"></div>
+<div class="row" style="height: 100%;">
+    <div class="col-9" style="height: 100%; margin: 0">
+        <div id="map" class="map"></div>
+    </div>
+    <div class="col-3">
+        <form id="params">
+            <div class="form-control">
+                <input id="from" placeholder="From"/>
+            </div>
+            <div class="form-control">
+                <output id="fromLatLon" style="white-space: pre-wrap"/>
+            </div>
+
+            <div class="form-control">
+                <input id="to" placeholder="To"/>
+            </div>
+            <div class="form-control">
+                <output id="toLatLon" style="white-space: pre-wrap"/>
+            </div>
+
+            <div class="form-control">
+                <input id="splitAfter" placeholder="Split router after X km"/>
+            </div>
+            <div class="form-control">
+                <input type="submit"/>
+            </div>
+        </form>
+    </div>
+</div>
 <!-- Make sure you put this AFTER Leaflet's CSS -->
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="

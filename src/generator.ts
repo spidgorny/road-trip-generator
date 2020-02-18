@@ -31,6 +31,14 @@ export class Generator {
 		this.map.fitBounds(this.bounds);
 	}
 
+	setFrom(lat, lon) {
+		this.fromTo[0] = L.latLng(lat, lon);
+	}
+
+	setTo(lat, lon) {
+		this.fromTo[1] = L.latLng(lat, lon);
+	}
+
 	get bounds() {
 		const bounds = L.latLngBounds();
 		this.fromTo.map((pos) => {
@@ -77,7 +85,7 @@ export class Generator {
 	async demoRouting() {
 		const plan = new L.Routing.Plan(this.waypoints, {});
 		if (plan.isReady()) {
-			const json = await fetch('src/demoRoute.json');
+			const json = await fetch('fixture/demoRoute.json');
 			let routes = await json.json();
 
 			// fix after JSON serialization
@@ -98,6 +106,5 @@ export class Generator {
 			break;
 		}
 	}
-
 
 }

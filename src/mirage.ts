@@ -3,7 +3,9 @@ import { Server } from "miragejs"
 export default function initMirage() {
 	return new Server({
 		routes() {
-			this.get("src/demoRoute.json", () => {
+			this.namespace = "";
+
+			this.get("fixture/demoRoute.json", () => {
 				return require('../fixture/demoRoute.json');
 			});
 
@@ -19,7 +21,9 @@ Currently running queries (pid, space limit, time limit, start time):`;
 			this.get("http://overpass-api.de/api/interpreter", (schema, request) => {
 				console.log('interpreter', request.queryParams.data);
 				return require('../fixture/demoOverpass.json');
-			})
+			});
+
+			this.passthrough('https://nominatim.openstreetmap.org/search/**');
 		},
 	})
 }
