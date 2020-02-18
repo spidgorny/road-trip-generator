@@ -22,6 +22,8 @@
     "@rollup/plugin-node-resolve": "^7.1.0",
     "@rollup/plugin-typescript": "^3.0.0",
     "@types/leaflet": "^1.5.8",
+    "fuse-box": "^3.7.1",
+    "miragejs": "^0.1.34",
     "snowpack": "^1.1.2",
     "tslib": "^1.10.0",
     "typescript": "^3.7.5"

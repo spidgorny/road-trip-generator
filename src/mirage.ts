@@ -1,0 +1,111 @@
+import { Server } from "miragejs"
+
+export default function initMirage() {
+	return new Server({
+		baseConfig() {
+			this.urlPrefix = 'http://overpass-api.de/';
+			this.namespace = "api"
+		},
+		routes() {
+
+			this.get("http://overpass-api.de/api/status", (schema, request) => {
+				console.log('status', request.queryParams);
+				return `Connected as: 3586544248
+Current time: 2020-02-18T13:29:55Z
+Rate limit: 2
+2 slots available now.
+Currently running queries (pid, space limit, time limit, start time):`;
+			});
+
+			this.get("http://overpass-api.de/api/interpreter", (schema, request) => {
+				console.log('interpreter', request.queryParams.data);
+				return {
+					"version": 0.6,
+					"generator": "Overpass API 0.7.55.1011 6c2efc30",
+					"osm3s": {
+						"timestamp_osm_base": "2020-02-18T13:24:02Z",
+						"copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+					},
+					"elements": [
+
+						{
+							"type": "node",
+							"id": 25930131,
+							"lat": 57.7072326,
+							"lon": 11.9670171,
+							"tags": {
+								"capital": "4",
+								"name": "Göteborg",
+								"name:ar": "غوتنبرغ",
+								"name:bs": "Geteborg",
+								"name:de": "Göteborg",
+								"name:el": "Γοτθομβούργο",
+								"name:en": "Gothenburg",
+								"name:eo": "Gotenburgo",
+								"name:es": "Gotemburgo",
+								"name:fi": "Göteborg",
+								"name:he": "גטבורג",
+								"name:hr": "Göteborg",
+								"name:hu": "Göteborg",
+								"name:is": "Gautaborg",
+								"name:ko": "예테보리",
+								"name:la": "Gothoburgum",
+								"name:lt": "Geteborgas",
+								"name:lv": "Gēteborga",
+								"name:nl": "Göteborg",
+								"name:pl": "Göteborg",
+								"name:pt": "Gotemburgo",
+								"name:ru": "Гётеборг",
+								"name:sv": "Göteborg",
+								"name:yi": "געטעבארג",
+								"name:zh": "哥德堡",
+								"old_name:de": "Gotenburg",
+								"place": "city",
+								"population": "522259",
+								"ref:se:pts:postort": "GÖTEBORG",
+								"ref:se:scb": "4368",
+								"short_name": "Gbg",
+								"wikidata": "Q25287",
+								"wikipedia": "sv:Göteborg",
+								"wikipedia:de": "Göteborg",
+								"wikipedia:en": "Gothenburg"
+							}
+						},
+						{
+							"type": "node",
+							"id": 30146990,
+							"lat": 57.6564918,
+							"lon": 12.0153085,
+							"tags": {
+								"name": "Mölndal",
+								"name:lt": "Miolndalas",
+								"name:ru": "Мёльндаль",
+								"place": "town",
+								"population": "60000",
+								"ref:se:pts:postort": "MÖLNDAL",
+								"wikidata": "Q27437",
+								"wikipedia": "sv:Mölndal"
+							}
+						},
+						{
+							"type": "node",
+							"id": 192294046,
+							"lat": 57.7243742,
+							"lon": 11.7653423,
+							"tags": {
+								"name": "Torslanda",
+								"place": "town",
+								"population": "23414",
+								"population:date": "2016",
+								"ref:se:pts:postort": "TORSLANDA",
+								"ref:se:scb": "4302",
+								"source:population": "SCB"
+							}
+						}
+
+					]
+				};
+			})
+		},
+	})
+}
